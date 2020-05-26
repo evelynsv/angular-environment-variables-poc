@@ -2,10 +2,10 @@
     window.__env = window.__env || {};
   
     // API url
-    window.__env.apiUrl = 'teste2.com';
+    window.__env.apiUrl = '$API_URL';
   
     // Whether or not to enable debug mode
     // Setting this to false will disable console output
-    window.__env.enableDebug = true;
+    window.__env.enableDebug = $DEBUG;
   }(this));
   

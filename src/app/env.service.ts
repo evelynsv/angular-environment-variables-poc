@@ -7,7 +7,7 @@ export class EnvService {
   public apiUrl = '';
 
   // Whether or not to enable debug mode
-  public enableDebug = true;
+  public enableDebug = false;
 
   constructor() {
   }
